@@ -9,7 +9,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import NotFound from "./not-found";
+
 
 export default function Home() {
   return (
@@ -26,7 +26,6 @@ export default function Home() {
                 <div className="text-gray-600">{data.label}</div>
               </div>
             ))}{" "}
-            || NotFound()
           </div>
         </div>
       </section>
